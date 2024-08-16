@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você acorda de manhã olha o seu celular e descobre que as queimadas e desmatamentos aumentaram 100%.",
+        enunciado: "Você é convidado para participar de um multirão contra a dengue.",
         alternativas: [
             {
-                texto: "Meu Deus porque não fazem nada?",
-                afirmacao: "Esse governo que não ajuda"
+                texto: "Eu vou participar pois isso pode ajudar a todos",
+                afirmacao: "Você descidiu pensar no coletivo assim ajudando a si e a comunidade"
             },
             {
-                texto: "To nem ai não muda nada para mim",
-                afirmacao: "Só quero saber do meu"
+                texto: "Não vou participar é uma perca de tempo",
+                afirmacao: "Você descidiu pensar em si mesmo e no agora o que te aguarda no futuro?"
             }
         ]
     },
     {
-        enunciado: "Em um belo dia você acorda... pega seu celular e vê que as queimadas e desmatamento aumentaram em 150%",
+        enunciado: "Os casos de dengue continuam a subir o que você faz?",
         alternativas: [
             {
-                texto: "Esta na hora do governo fazer alguma coisa!",
-                afirmacao: "Precisamos de alguem que consiga parar isso!"
+                texto: "Continuarei ajudando a todos",
+                afirmacao: "Parece que sua ajuda não está adiantando,"
             },
             {
-                texto: "Meu salario ta entrando não vai mudar nada para mim!",
-                afirmacao: "Indiferente não se importa com o que aconteceu ao redor"
+                texto: "Não me preucupo pois sem que sempre tem um troxa para fazer o serviço por mim",
+                afirmacao: "Você reage com indiferença, não se importa com o que acontece ao redor"
             }
         ]
     },
     {
-        enunciado: "10 anos se passaram e você vê na internet que os niveis de desmatamento aumentaram em 1000%, a aerea verde no Brasil diminuiu cerca de 50% do total.",
+        enunciado: "Você contraiu dengue neurológica e se encontra em seu leito de morte, o que você pensa?",
         alternativas: [
             {
-                texto: "Mas eu falei la atrás que o governo deveria intervir!!!",
-                afirmacao: "Novamente jogando o problema nas costas dos outros"
+                texto: "Eu vivi bem, apesar de todo esforço no fim não adiantou,",
+                afirmacao: "Você está pronto para partir em paz"
             },
             {
-                texto: "Minha casa tem ar condicionado não vai mudar nada para mim!",
-                afirmacao: "Falta de interesse, indiferente com o futuro"
+                texto: "Que diabos, como isso foi acontecer?",
+                afirmacao: "Você está com raiva por estar chegando ao fim da sua vida"
             }
         ]
     },
     {
-        enunciado: "O ano é 2070 você acorda em um mundo cinza com calor extremo de 75°C pela manhâ e -20° a noite, a humanidade luta para sobreviver ao ambiente inospito você com certeza deu sorte de chegar até aqui, você para e reflite como isso aconteceu?",
+        enunciado: "Quando você percebe está no seu, ao seu lado Gabriel",
         alternativas: [
             {
-                texto: "Se o governo tivesse dado atenção ao caso isso não teria acontecido!",
-                afirmacao: "de novo jogando a culpa nas costas de alguem?"
+                texto: "Fico feliz por estar no céu",
+                afirmacao: "Você sabe que no fundo sempre tentou ajudar a todos e não possuí temor"
             },
             {
-                texto: "Você não esta mais bem, a sua falta de interesse seu contibuiu com essa catastrofe e você sabe disso!",
-                afirmacao: "Somente no fim você começou a dar atenção ao verdadeiro problema quando já não tinha mais solução"
+                texto: "Fico feliz por estar salvo",
+                afirmacao: "Você sabe que no fundo sempre tentou ajudar a todos e não possuí temor"
             }
         ]
     },
     {
-        enunciado: "Esse é o futuro que aguarda todos nós! em qual grupo você vai ficar? nos que culpam os outros ou os que não se importam com nada? Talvez você não queira nenhum dos grupos anteriores então vamos fazer parte da minoria que luta por um mundo melhor!",
+        enunciado: "Na hora do julgamento o que te é dito?",
         alternativas: [
             {
-                texto: "Sim eu quero ser a minoria!",
-                afirmacao: "Mas hoje com o seu despertar podemos mudar o mundo afinal não somos mais a minoria!"
+                texto: "Você ajudou o maximo de pessoas que pode por isso...",
+                afirmacao: "Você é salvo por suas escolhas em vida"
             },
             {
-                texto: "Vou continuar sem me importar!",
-                afirmacao: "Sinceramente eu espero que você morra, sempre soube que a saida era seleção e exterminio"
+                texto: "Você acha que ajudou o maximo de pessoas que pode por isso...",
+                afirmacao: "Você é condenado por suas atitudes passadas "
             }
         ]
     },
